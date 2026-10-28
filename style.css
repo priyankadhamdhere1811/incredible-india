@@ -1,0 +1,47 @@
+
+* {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+h1{
+    color: blue;
+    text-align: center;
+}
+
+.headerPara{
+    text-align: center;
+}
+
+h2, h3, h4{
+    color: green;
+}
+
+.places{
+    background: rgba(110, 208, 246, 1);
+    height: 250px;
+    width: 400px;
+    border: radius 12px;;
+
+}
+ul{
+    color: maroon;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+.tips p::before{
+    content: "Tip: ";
+    font-weight: 900;
+}
+.footerPara{
+    text-align: center;
+    color:maroon;
+}
+.PopularDest{
+    text-align: center;
+    text-decoration: underline;
+
+}
